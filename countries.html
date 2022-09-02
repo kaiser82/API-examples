@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Countries</title>
+    <style>
+      .country {
+        background-color: lightgoldenrodyellow;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 15px;
+      }
+      #countires-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Explore Countires</h1>
+    </header>
+    <main>
+      <section>
+        <h3>Country Details</h3>
+        <div id="country-detail"></div>
+      </section>
+      <section>
+        <div id="countires-container"></div>
+      </section>
+    </main>
+    <script src="js/countirs.js"></script>
+  </body>
+</html>
